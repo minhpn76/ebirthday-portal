@@ -1,0 +1,65 @@
+.app-index{
+  margin-top:52px;
+  background: url(/img/birthday_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+  border: none;
+}
+
+.expend-menu{
+  padding-left: 0;
+  padding-top: 10px;
+  li{
+    list-style-type: none;
+    font-size: $font-size-lg;
+    a{
+      color: $black;
+    }
+  }
+}
+.list-style-type-decimal{
+  list-style-type: decimal;
+}
+#app-login{
+  background: url(/img/birthday_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.isLoading{
+  opacity: 0.6;
+}
+/* Busy table styling */
+table.b-table[aria-busy='true'] {
+  opacity: 0.6;
+}
+.vdp-datepicker input {
+  height: 33px;
+}
+
+.remove-button-calender{
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-35%);
+  background: inherit;
+}
+.remove-button-calender:hover,.remove-button-calender:active,.remove-button-calender:focus{
+  background-color: inherit !important;
+  box-shadow: inherit !important;
+}
+.remove-button-calender:focus{
+  outline: 0px;
+}

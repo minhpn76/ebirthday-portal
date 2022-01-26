@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2019-11-27T03:59:18Z"
+                     cacheDuration="PT604800S" entityID="https://tvo-saml.tk/sp/metadata"
+                     ID="pfx2f20b6ea-4b56-41a3-35dd-7802a3119759">
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true"
+                      protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>
+            MIID6TCCAtCgAwIBAgIBADANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCdm4xEDAOBgNVBAgMB0RhIE5hbmcxDDAKBgNVBAoMA1RWTzEUMBIGA1UEAwwLdHZvLXNhbWwudGsxDjAMBgNVBAcMBUhhbm9pMQwwCgYDVQQLDANUVk8xKjAoBgkqhkiG9w0BCQEWG2R1Y3RyYW54dWFuLjI5NzEwQGdtYWlsLmNvbTAeFw0xOTExMTkwMzUzNDhaFw0yMDExMTgwMzUzNDhaMIGNMQswCQYDVQQGEwJ2bjEQMA4GA1UECAwHRGEgTmFuZzEMMAoGA1UECgwDVFZPMRQwEgYDVQQDDAt0dm8tc2FtbC50azEOMAwGA1UEBwwFSGFub2kxDDAKBgNVBAsMA1RWTzEqMCgGCSqGSIb3DQEJARYbZHVjdHJhbnh1YW4uMjk3MTBAZ21haWwuY29tMIIBIzANBgkqhkiG9w0BAQEFAAOCARAAMIIBCwKCAQIAyQ8WKVtYU8Ams8EVLM4XdYPTNa7cobZKXYyctZyup1gPRhV46CSR5p03qI6cr/l++sGPz+tyQ1sDu4qJijCblTJO1kgSi209II6PHS0t7haer4c7HdRawTyalh3tu4j9iRnmnNtIPPqQkOctlvs3L6MxO29KUSqaAYspDdqAZNFq1xblJ8OF8tNKfOdcd8iEe0ubHiRziDD0Dbt1U9Lh+j5QFFUBBz8Pcaea/kf95C3lYEOBsiJSdogqGSvxc7SELQtMUiY7N9t47SdjsItPC29fJKZxC+7mbYk9ZTjknRHV1DKxokcr8ZbmZ+dX3LTBBGX1PHprIejloScOEDOnfukCAwEAAaNQME4wHQYDVR0OBBYEFHo/bHA6eRWcP1EIrzeJ6GA/nTuUMB8GA1UdIwQYMBaAFHo/bHA6eRWcP1EIrzeJ6GA/nTuUMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggECAEAoLUZvA7bNVaegiRpTbIlbRUhonRqa7QIVjJsJyke7iCLmlntfQLMmEWetkdDV3Wp61CWuhfPMw+MXjBJm9Y3lYQlhMLsSB6a9Xibb9PbiQ/a7hVuCAo344hzr0sMEAfF4HMMeOlfpyO246HZ4A/5D94rj1aIXepi4IN5jf3K6qvIJNpBcm+Eo22KthKUTmH4SfqcE+Ha3xFZLJ6AboaKoy0YuRpKuvPDUZ6tt+Nxnjy+e7sCWbkvDsH/YwEC/CoICNvDEyiFal7l1pZ93UGt8EJoLliWrwTO5fCIpqMhm8796/dYBVvvPGsP8ssio8tiN2N5SznlKFVSP7HfKRDk9
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>
+            MIID6TCCAtCgAwIBAgIBADANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCdm4xEDAOBgNVBAgMB0RhIE5hbmcxDDAKBgNVBAoMA1RWTzEUMBIGA1UEAwwLdHZvLXNhbWwudGsxDjAMBgNVBAcMBUhhbm9pMQwwCgYDVQQLDANUVk8xKjAoBgkqhkiG9w0BCQEWG2R1Y3RyYW54dWFuLjI5NzEwQGdtYWlsLmNvbTAeFw0xOTExMTkwMzUzNDhaFw0yMDExMTgwMzUzNDhaMIGNMQswCQYDVQQGEwJ2bjEQMA4GA1UECAwHRGEgTmFuZzEMMAoGA1UECgwDVFZPMRQwEgYDVQQDDAt0dm8tc2FtbC50azEOMAwGA1UEBwwFSGFub2kxDDAKBgNVBAsMA1RWTzEqMCgGCSqGSIb3DQEJARYbZHVjdHJhbnh1YW4uMjk3MTBAZ21haWwuY29tMIIBIzANBgkqhkiG9w0BAQEFAAOCARAAMIIBCwKCAQIAyQ8WKVtYU8Ams8EVLM4XdYPTNa7cobZKXYyctZyup1gPRhV46CSR5p03qI6cr/l++sGPz+tyQ1sDu4qJijCblTJO1kgSi209II6PHS0t7haer4c7HdRawTyalh3tu4j9iRnmnNtIPPqQkOctlvs3L6MxO29KUSqaAYspDdqAZNFq1xblJ8OF8tNKfOdcd8iEe0ubHiRziDD0Dbt1U9Lh+j5QFFUBBz8Pcaea/kf95C3lYEOBsiJSdogqGSvxc7SELQtMUiY7N9t47SdjsItPC29fJKZxC+7mbYk9ZTjknRHV1DKxokcr8ZbmZ+dX3LTBBGX1PHprIejloScOEDOnfukCAwEAAaNQME4wHQYDVR0OBBYEFHo/bHA6eRWcP1EIrzeJ6GA/nTuUMB8GA1UdIwQYMBaAFHo/bHA6eRWcP1EIrzeJ6GA/nTuUMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggECAEAoLUZvA7bNVaegiRpTbIlbRUhonRqa7QIVjJsJyke7iCLmlntfQLMmEWetkdDV3Wp61CWuhfPMw+MXjBJm9Y3lYQlhMLsSB6a9Xibb9PbiQ/a7hVuCAo344hzr0sMEAfF4HMMeOlfpyO246HZ4A/5D94rj1aIXepi4IN5jf3K6qvIJNpBcm+Eo22KthKUTmH4SfqcE+Ha3xFZLJ6AboaKoy0YuRpKuvPDUZ6tt+Nxnjy+e7sCWbkvDsH/YwEC/CoICNvDEyiFal7l1pZ93UGt8EJoLliWrwTO5fCIpqMhm8796/dYBVvvPGsP8ssio8tiN2N5SznlKFVSP7HfKRDk9
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+                            Location="https://tvo-saml.tk/adfs/sls"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                                 Location="https://tvo-saml.tk/adfs/acs" index="1"/>
+  </md:SPSSODescriptor>
+</md:EntityDescriptor>

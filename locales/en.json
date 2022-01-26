@@ -1,0 +1,277 @@
+{
+  "menu": {
+    "far_east_organisation": "Far East Organisation",
+    "dashboard": "Dashboard",
+    "home": "Home",
+    "send_personalised_greetings": "Send Personalised Birthday Message",
+    "birthdays": "View Birthdays",
+    "personalised_greeting_stats": "Personalised Birthday Message Statistics",
+    "resend_sms": "Resend SMS(s)",
+    "page_transaction": "Past Transaction",
+    "roles" : "Roles",
+    "functional_id" : "Functional ID",
+    "modify_functional_id" : "Modify Functional ID",
+    "create_functional_id" : "Create New Functional ID",
+    "portal_setting": "Portal Settings",
+    "templates": "Templates",
+    "templates_email": "Edit Email Templates",
+    "templates_sms": "Edit SMS templates",
+    "redemption_voucher": "Redeem Voucher",
+    "check_voucher": "Check Voucher"
+  },
+  "portal": {
+    "admin": "Admin Portal",
+    "message": "Message Portal",
+    "redemption": "Redemption Portal",
+    "staff": "FEO Staff Portal",
+    "description_admin" : "This is FEO Admin Portal...",
+    "description_message" : "This is FEO Message Portal...",
+    "description_redemption" : "This is FEO Redemption Portal..."
+  },
+  "dashboard": {
+    "today": "Today's date",
+    "birth_day_this_month": "Birthdays this month",
+    "birth_day_next_month": "Birthdays next month",
+    "err_search_null": "No data available",
+    "no_record_to_show": "There are no records to show",
+    "term": "Term & Conditions",
+    "redeem": "Redeem",
+    "extend_voucher": "Extend Voucher",
+    "staff": {
+      "staffdetail": "Staff Details",
+      "staffid": "Staff ID: ",
+      "staffid_require": "Staff ID",
+      "name": "Name: ",
+      "dob": "Birthday: ",
+      "mobile_number": "Mobile Number: ",
+      "voucher_detail": "Voucher Detail(s) ",
+      "voucher_number_require": "Voucher Number"
+    },
+    "search": "Search",
+    "clear": "Clear",
+    "save": "Save",
+    "modal": {
+      "confirm": "Confirm redemption of voucher?",
+      "cancel": "Cancel",
+      "ok": "Ok"
+    }
+  },
+  "auth": {
+    "logout": "Logout",
+    "login": "Login",
+    "loginName": "Login with SSO"
+  },
+  "table": {
+    "fields": {
+      "voucher": "Voucher",
+      "voucher_id": "Voucher ID",
+      "expriy_date": "Expiry date",
+      "voucher_status": "Status",
+      "description": "Description"
+    }
+  },
+  "status": {
+    "pending": "Pending ({number})",
+    "sent": "Sent ({number})",
+    "countContentSms": "({num}/250)"
+  },
+  "messages": {
+    "select_sms": "Select for SMS",
+    "forward": "Forward",
+    "reg" : "You are not allowed to have '&', '@' and '<' in your message.",
+    "no_birthdays_this_month": "No birthdays this month.",
+    "greeting_sent": "Message(s) sent",
+    "greeting_not_sent": "Message(s) not sent",
+    "smsSendGreeting": "{selected} out of {total} write messages selected",
+    "noStaffSelected": "Please ensure that the 'Send SMS' checkbox is selected for the staff!",
+    "limitTextArea" : "The messsage field may not be greater than 250 characters.",
+    "maxGreater" : "Only allowed to enter only 250 characters",
+    "send_sms": "Are you sure you want to send this SMS?",
+    "send_empty_sms": "Are you sure you want to send this empty SMS?",
+    "submit_message": "Are you sure to submit this message ?"
+  },
+  "textfield": {
+    "reporting_staff_whom_birthdays": "Only your direct reports whose birthdays fall in the current and the following months are shown.",
+    "see_all_birthdays": "See all birthdays",
+    "button_send": "Send SMS",
+    "text_confirm_sms": "Confirm and send SMS(s)",
+    "search_staff": "Search Staff",
+    "placeholder_staff": "Enter staff name",
+    "all_month": "All Months",
+    "send_to": "Send To",
+    "message": "Message",
+    "cancel": "Cancel",
+    "greeting_not_personalised": "Messages not sent",
+    "greeting_personalised": "Messages sent",
+    "percent_month": "% messages sent are personalised by managers in the last 2 months",
+    "percent_year": "% messages sent are personalised by managers in the start of ",
+    "all_department": "All Departments",
+    "all_manager": "All Managers"
+  },
+  "filter": {
+    "sort_by": "Sort by",
+    "sentSMS": "Send SMS"
+  },
+  "tablecontext": {
+    "head": "Only successfully triggered SMSs 1 month before and 1 month after in the current month can be resent.",
+    "head_personalized": "Showing the statistics or personalised greetings sent before the deadlines.",
+    "field": {
+      "name": "Name",
+      "birthdate": "Birthdate",
+      "in_service_since": "In service since",
+      "service_duration": "Service Duration",
+      "department": "Department",
+      "manager": "Manager",
+      "voucher_issued": "Voucher Issued?",
+      "action": "Action",
+      "year_to_date": "Year to date (%)",
+      "total_reporting_staff": "Total Reporting Staff",
+      "service_since": "In service since"
+    }
+  },
+  "staff": {
+    "defaultText": "No message was sent. default SMS template was sent",
+    "isNothingVoucher" : "No voucher",
+    "available" : "Available Voucher(s)",
+    "bd_voucher" : "Birthday Voucher",
+    "tap_desc": "Tap on the above button to view QR code"
+  },
+  "portal_drop": {
+    "message": "Message Portal",
+    "select": "Select Portal",
+    "admin": "Admin Portal"
+  },
+  "admin": {
+    "templates" : {
+      "table": {
+        "fields" : {
+          "email_type" : "Email Type",
+          "email_subject" : "Email Subject",
+          "email_content" : "Email Content",
+          "sms_type" : "SMS Type",
+          "sms_subject" : "SMS Subject",
+          "sms_content" : "SMS Content",
+          "enter_something": "Enter something...",
+          "sms_footer": "SMS footer",
+          "sms_body": "SMS body",
+          "sms_header": "SMS header"
+        }
+      },
+      "context" : {
+        "legends": "Legends",
+        "EmpFirstName": "{EmpFirstName}",
+        "BirthdayStaffFirstName": "Birthday Staff First Name",
+        "EmpLastName": "{EmpLastName}",
+        "BirthdayStaffLastName": "BirthdayStaffLastName",
+        "Message": "{Message}",
+        "decsMessage": "Message composed by Manager",
+        "TinyURL": "{TinyURL}",
+        "decsTinyURL": "URL of Staff Portal link to be accessed by Staff",
+        "ManagerFirstName": "{ManagerFirstName}",
+        "decsManagerFirstName": "Manager First Name",
+        "FIRSTNAME": "${FIRSTNAME}",
+        "descFirstName": "Birthday Staff First Name",
+        "LASTNAME": "${LASTNAME}",
+        "descLastName": "Birthday Staff Last Name",
+        "REPORTINGMANAGERFIRSTNAME": "${REPORTINGMANAGERFIRSTNAME}",
+        "descManagerName": "Manager First Name",
+        "DATEOFBIRTH": "${DATEOFBIRTH}",
+        "descDateOfBirth": "Staff's Date of Birth",
+        "BIRTHDAY_URL": "${BIRTHDAY_URL}",
+        "decsBirthDay": "FEO eBirthday Voucher Portal to send message",
+        "EmpPreferredName": "{EmpPreferredName}",
+        "EmpPreferredNameDesc": "Employee's Preferred Name",
+        "MgrPreferredName": "{MgrPreferredName}",
+        "MgrPreferredNameDesc": "Manager’s Preferred Name",
+        "MessageFromReportingManager": "{MessageFromReportingManager}",
+        "MessageFromReportingManagerDesc": "Message From Reporting Manager",
+        "MessageFromAdditionalPerson": "{MessageFromAdditionalPerson}",
+        "MessageFromAdditionalPersonDesc": "Message From Additional Person",
+        "Marker": "#",
+        "MarkerDesc": "Marker to divide 2 SMS",
+        "AdditionalCompPreferredName": "{AdditionalCompPreferredName}",
+        "AdditionalCompPreferredNameDesc": "Additional Manager’s Preferred Name"
+      }
+    }
+  },
+  "transaction": {
+    "name": "Past Transaction",
+    "label": "Take not that once the browsers cache is cleared, the transaction history will be removed and can be undo.",
+    "table": {
+      "fields": {
+        "staffID": "Staff ID",
+        "outletName": "Outlet",
+        "outletCode": "Outlet Code",
+        "creationName": "Creation Name",
+        "staffName": "Staff Name",
+        "voucherName": "Voucher Name",
+        "voucherID": "Voucher ID",
+        "voucherExpiryDate": "Voucher Expiry Date",
+        "transactionNo": "Transaction No.",
+        "transactionTime": "Transaction Date/Time"
+      }
+    }
+  },
+  "step": {
+    "sent_otp": "Tap and receive OTP via SMS"
+  },
+  "form": {
+    "submit": "Submit",
+    "enter_otp": "Enter OTP",
+    "resend" : "Resend SMS"
+  },
+  "profile": {
+    "your_detail": "Your Details",
+    "staff_id": "Staff ID: ",
+    "name": "Name: ",
+    "dob": "Birthday: ",
+    "mobile_number": "Mobile number: ",
+    "voucher_id": "Voucher ID: ",
+    "expiry_date": "Expiry Date: ",
+    "terms": "Terms & Conditions"
+  },
+  "redemption": {
+    "notification": {
+      "not_found_staff": "No record found",
+      "not_found_voucher": "No record found",
+      "not_found_staff_search" : "There is no email address or staff ID entered",
+      "not_found_staff_modify" : "There is no email address or staff ID entered"
+    },
+    "error": {
+      "staffID" : "The Staff ID is required",
+      "voucherNumber" : "The Voucher Number is required"
+    }
+  },
+  "roles": {
+    "table" : {
+      "fields": {
+        "actionRole": "Action"
+      }
+    },
+    "nothing_permission": "You have not allow permission!",
+    "email_required": "Email:",
+    "user_id_required": "Functional ID:",
+    "user_id_required_desc": "Enter Functional ID",
+    "email": "Email: ",
+    "userId": "Staff ID: ",
+    "name": "Name: ",
+    "create_name": "Name",
+    "create_email": "Email",
+    "outlets": "Outlets",
+    "btn_update_text": "Update"
+
+  },
+  "modify_functional" : {
+    "tablecontext" : {
+      "field" : {
+        "name": "Name",
+        "email": "Email",
+        "staff_id": "Functional ID",
+        "account_status": "Account Status",
+        "tick_to_de_active": "Tick to de-active",
+        "last_updated_by": "Last Updated by",
+        "out_lets": "OutLets"
+      }
+    }
+  }
+}

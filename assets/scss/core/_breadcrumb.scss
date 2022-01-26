@@ -1,0 +1,7 @@
+.breadcrumb {
+  position: fixed;
+  @include borders($breadcrumb-borders);
+  border-radius: 0;
+  width: 100%;
+  z-index: 99;
+}

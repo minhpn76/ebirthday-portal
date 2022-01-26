@@ -1,0 +1,85 @@
+// Here you can add other styles
+*:focus {
+  outline: none;
+}
+
+.subhead::first-letter {
+  initial-letter: 2;
+}
+
+.cursor-point {
+  cursor: pointer;
+}
+
+.textBold {
+  font-weight: 700;
+}
+
+.fix-version {
+  position: static;
+  padding: 5px 5px;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  z-index: 999;
+  color: #000;
+}
+
+.fix-version-staff {
+  position: fixed;
+  padding: 5px 5px;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  z-index: 999;
+  color: #000;
+}
+
+.fix-bottom-forward {
+  padding: 10px 0;
+  height: 54px;
+  line-height: 22px;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+  .v-select {
+    min-width: 180px !important;
+  }
+  .form-control.max-width {
+    max-width: 150px;
+    font-size: 0.75rem;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+//Dashboard custom
+@import './customs/pages/dashboard';
+// send_personalised_greetings custom
+@import './customs/pages/send_personalised_greetings';
+// redemption scss
+@import './customs/pages/redemptionportal.scss';
+// staff scss
+@import './customs/pages/staffportal.scss';
+// select portal
+@import './customs/pages/selectportal.scss';
+//admin portal
+@import './customs/pages/adminportal.scss';
+
+//failed page
+@import './customs/pages/failed.scss';
+
+//select2 vue
+@import "vue-select/src/scss/vue-select.scss";

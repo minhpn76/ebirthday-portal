@@ -1,0 +1,77 @@
+.decimal-list{
+  list-style-type: decimal;
+}
+.detail-tab-staff{
+  span{
+    display: block;
+  }
+
+}
+.auto-canvas canvas{
+  width: 100% !important;
+  height: 100% !important;
+}
+.bt-close{
+  position: absolute;
+  right: -6px;
+  top: -21px;
+  background-color: $white;
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+}
+//#__layout.sticky{
+//  background: url(/img/birthday_bg.png);
+//  background-repeat: no-repeat;
+//  background-size: 100% 100%;
+//  display: flex;
+//  flex-direction: column;
+//  min-height: 100vh;
+//}
+#__layout.sticky.popular{
+  background: url(/img/FEO.png) #b9bbbd;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+#__layout.sticky.especially{
+  background: url(/img/FEOR.png) #b9bbbd;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+#app-index.none-class{
+  background: none!important;
+  background-repeat: none!important;
+}
+.carousel-caption {
+  color: #000 !important;
+}
+.carousel-control-next-icon {
+  background-image: url(/img/icon_next.svg)!important;
+}
+.carousel-control-prev-icon {
+  background-image: url(/img/icon_prev.svg)!important;
+}
+@media (max-width: 768px){
+  .qr-code{
+    position: relative;
+  }
+  .carousel-caption{
+    position: relative;
+    right: inherit!important;
+    left: inherit!important;
+  }
+  .tab-content img{
+    position: absolute
+  }
+  .is-margin-bottom {
+    margin-bottom: 100px!important
+  }
+}

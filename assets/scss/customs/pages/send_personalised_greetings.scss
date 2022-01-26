@@ -1,0 +1,206 @@
+.wrapper-message {
+  background-color: $white;
+  padding: 20px;
+}
+
+.et-column-greeting {
+  position: fixed;
+  bottom: 60px;
+  right: 28px;
+  border: 1px dotted $border-color;
+  background-color: $white;
+  padding: 20px 20px 20px 30px;
+
+  .gr-sent {
+    position: relative;
+  }
+
+  .gr-sent:before {
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 16px;
+    left: -18px;
+    background-color: $green;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .gr-not-sent {
+    position: relative;
+  }
+
+  .gr-not-sent:before {
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 16px;
+    left: -18px;
+    background-color: $red;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.bt-0 {
+  bottom: 0;
+}
+
+.modal-footer {
+  border: 0;
+}
+
+.table-borderless > tbody {
+  border: 1px solid $btn-secondary-border;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+  border: none;
+}
+
+.box-selected-message {
+  bottom: 0px;
+  right: 0;
+  left: $sidebar-width;
+  background-color: #CCCCCC;
+  margin-left: 0px;
+}
+
+.sidebar-hidden .box-selected-message {
+  left: 0px;
+}
+
+.sidebar-minimized .box-selected-message {
+  left: $navbar-brand-minimized-width;
+}
+
+.table-custom {
+  background-color: $white;
+}
+
+.text-after {
+  color: $border-color;
+}
+
+.errors {
+  color: $red;
+}
+
+.item-staff {
+  height: 100%;
+  background-color: $white;
+}
+
+.sub-menu {
+  padding-left: 0;
+
+  li {
+    list-style-type: none;
+    float: left;
+    margin-right: 4px;
+    padding-right: 4px;
+    border-right: 1px solid $border-color;
+    cursor: pointer;
+
+    .active_menu {
+      font-weight: bold;
+    }
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+}
+
+.mb-custom {
+  margin-bottom: $margin-bottom;
+}
+
+.mb-custom-2 {
+  margin-bottom: $margin-bottom-2;
+}
+
+.breadcrumb {
+  margin-bottom: 0 !important;
+}
+
+// them
+#icon-hidden.hiddend {
+  display: none;
+  transition: margin-left $layout-transition-speed, margin-right $layout-transition-speed;
+}
+
+.container-fluid {
+  padding-top: 1.5rem !important;
+  // background: url(/img/birthday_bg.png) top left no-repeat;
+  background-size: 80% auto;
+  display: -webkit-flex;
+  display: flex;
+  background-attachment: fixed;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+  background-position: 300px 100px;
+  transition: margin-left $layout-transition-speed, margin-right $layout-transition-speed;
+}
+
+.container-fluid.sticky {
+  background-position-x: 0px;
+  background-size: 100% auto;
+  transition: margin-left $layout-transition-speed, margin-right $layout-transition-speed;
+}
+
+.container-fluid.sticky-scroll {
+  background-position-y: 55px;
+  transition: all 0.1s ease;
+}
+
+#app-login {
+  background: url(/img/birthday_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@media only screen and (max-width: 1280px) {
+  .display-3 {
+    font-size: 2.5rem
+    /* other styles here */
+  }
+  .display-4 {
+    font-size: 2.5rem
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container-fluid {
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: inherit;
+  }
+}
+
+.tab-dashboard {
+  margin-bottom: inherit !important;
+  background: #FFF3CD;
+  padding: 5px 10px;
+  border: 1px solid #C2CFD6;
+  border-bottom: inherit !important;
+}
+
+.font-size-125 {
+  font-size: 1.25rem !important;
+}
+
+.btn-blue {
+  background-color: #3360FF;
+  border-color: #3360FF;
+  color: #fff;
+}

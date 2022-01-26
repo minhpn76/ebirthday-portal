@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2019-11-08T03:26:40Z"
+                     cacheDuration="PT604800S" entityID="https://feo-evoucher.ascentis.com.sg/sp/metadata"
+                     ID="pfx97223e94-f8b7-04e2-4d85-c0108bab1891">
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true"
+                      protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>
+            MIIDizCCAnKgAwIBAgIBADANBgkqhkiG9w0BAQsFADBfMQswCQYDVQQGEwJzZzELMAkGA1UECAwCU0cxETAPBgNVBAoMCEFzY2VudGlzMRowGAYDVQQDDBEqLmFzY2VudGlzLmNvbS5zZzEUMBIGA1UECwwLQXNjZW50aXMgSVQwHhcNMTkxMDMxMDgzNzM1WhcNMjExMDMwMDgzNzM1WjBfMQswCQYDVQQGEwJzZzELMAkGA1UECAwCU0cxETAPBgNVBAoMCEFzY2VudGlzMRowGAYDVQQDDBEqLmFzY2VudGlzLmNvbS5zZzEUMBIGA1UECwwLQXNjZW50aXMgSVQwggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgC45iFNyJpKWezNHZ1wFsLF270CvWCZfzyasBtTZxWi2dJ76TrDN0h05RwtMdVgyU1Yfu3QqOuXANEJuRkF85hAUz82Mqqoqu2YuaTZdnbIPNhRcn7enb40137bnBZvmyXwcj6sDsLvp9DakkYZ9e+jTkM+OJXjAZzW5N+INZNHuXiYCHPQ22y5vWpeDrFNuuHBx0+XbyVqYzhZ8eDiy5fQwJPJ8RjVjqieV2cz5ACaUq9lXY1lnzKih00H5Enn0nQ7cQVDlG2dl830k7WpmD+iGmNsIVGlWTDSG3JeV3EEd902fQAhqbZSt3XxrHO4DgkO0OYIlKPYoqEynJ+kWlkeLwIDAQABo1AwTjAdBgNVHQ4EFgQUbcrAsh3d5k/zKgp7uEULef6iwL4wHwYDVR0jBBgwFoAUbcrAsh3d5k/zKgp7uEULef6iwL4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQIAnmvOk/V6qqYFrKNenshR390FS6owK4UD9fILdhU8FgfpyzavOgSC2/tAW8PfhslZfp6RUtkn1l+APWiisAzErETcG5U84iTu/2UsUErgMOSfLGcRXqSqEmUCGMrOSsurpRjtPgXxT5veTwN3t8bWFiXQFk1bO3NN31wh0AKOoXPgf/n9VjusUvmEXcl9HhIAlJk2+O+UOTUNRRyNjDBZEqNypjKiNq/8CwFyq8MgTZCBXi56AWRBD4V04ICmf5ZPqiGibxnTrNUlmfcsNQGmKOj04LRnKdls0u7lqZlNRHE82ud7D1zWjTWfXgbsdUK0SzI7XdsrQWYTkLcVyPJnjyc=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>
+            MIIDizCCAnKgAwIBAgIBADANBgkqhkiG9w0BAQsFADBfMQswCQYDVQQGEwJzZzELMAkGA1UECAwCU0cxETAPBgNVBAoMCEFzY2VudGlzMRowGAYDVQQDDBEqLmFzY2VudGlzLmNvbS5zZzEUMBIGA1UECwwLQXNjZW50aXMgSVQwHhcNMTkxMDMxMDgzNzM1WhcNMjExMDMwMDgzNzM1WjBfMQswCQYDVQQGEwJzZzELMAkGA1UECAwCU0cxETAPBgNVBAoMCEFzY2VudGlzMRowGAYDVQQDDBEqLmFzY2VudGlzLmNvbS5zZzEUMBIGA1UECwwLQXNjZW50aXMgSVQwggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgC45iFNyJpKWezNHZ1wFsLF270CvWCZfzyasBtTZxWi2dJ76TrDN0h05RwtMdVgyU1Yfu3QqOuXANEJuRkF85hAUz82Mqqoqu2YuaTZdnbIPNhRcn7enb40137bnBZvmyXwcj6sDsLvp9DakkYZ9e+jTkM+OJXjAZzW5N+INZNHuXiYCHPQ22y5vWpeDrFNuuHBx0+XbyVqYzhZ8eDiy5fQwJPJ8RjVjqieV2cz5ACaUq9lXY1lnzKih00H5Enn0nQ7cQVDlG2dl830k7WpmD+iGmNsIVGlWTDSG3JeV3EEd902fQAhqbZSt3XxrHO4DgkO0OYIlKPYoqEynJ+kWlkeLwIDAQABo1AwTjAdBgNVHQ4EFgQUbcrAsh3d5k/zKgp7uEULef6iwL4wHwYDVR0jBBgwFoAUbcrAsh3d5k/zKgp7uEULef6iwL4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQIAnmvOk/V6qqYFrKNenshR390FS6owK4UD9fILdhU8FgfpyzavOgSC2/tAW8PfhslZfp6RUtkn1l+APWiisAzErETcG5U84iTu/2UsUErgMOSfLGcRXqSqEmUCGMrOSsurpRjtPgXxT5veTwN3t8bWFiXQFk1bO3NN31wh0AKOoXPgf/n9VjusUvmEXcl9HhIAlJk2+O+UOTUNRRyNjDBZEqNypjKiNq/8CwFyq8MgTZCBXi56AWRBD4V04ICmf5ZPqiGibxnTrNUlmfcsNQGmKOj04LRnKdls0u7lqZlNRHE82ud7D1zWjTWfXgbsdUK0SzI7XdsrQWYTkLcVyPJnjyc=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+                            Location="https://feo-evoucher.ascentis.com.sg/adfs/sls"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                                 Location="https://feo-evoucher.ascentis.com.sg/adfs/acs" index="1"/>
+  </md:SPSSODescriptor>
+</md:EntityDescriptor>
